@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.hero-image {
+    background-image: url("../img/BANNER1.png");
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 100px;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    color: #4C82DA;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 62px;
+}
+
+.ccm-participantes {
+    padding: 0 0 52px 0;
+    background-color: #002550;
+}
+
+.ccm-participantes h4 {
+    color: white;
+}
+
+.titulo-participantes {
+    background-color: #003e87;
+    padding: 24px 0 24px 0;
+}
+
+.participante {
+    max-height: 60px;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    color: #04306A;
+    font-size: 36px;
+    font-weight: bolder;
+    line-height: 44px;
+
+}
+
+#introduccion p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #353535;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+#oferta-academica {
+    background-color: #002550;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#oferta-academica p {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+    color: #DFFDFD;
+}
+
+#oferta-academica hr {
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.oferta-subtitle {
+    font-size: 32px;
+    color: white;
+    font-weight: lighter;
+}
+
+.oferta-title {
+    font-size: 72px;
+    color: #F9B82E;
+    font-weight: 900;
+    line-height: 72px;
+}
+
+.convocatoria-card {
+    border-radius: 12px;
+    background-color: #F7F9FC;
+    padding: 24px;
+}
+
+.convocatoria-title {
+    font-size: 24px;
+    font-weight: normal;
+    color: #4C82DA;
+}
+
+#convocatorias .list-group-item {
+    color: #707070;
+    background-color: #F7F9FC;
+}
+
+.yellow {
+    color: #F9B82E;
+}
+
+.blue {
+    color: #4C82DA;
+}
+
+#coloquio {
+    background-color: #F7F9FC;
+    padding: 24px 0 24px 0;
+}
+
+.coloquio-evento {
+    padding: 32px 0 32px 0;
+    border-bottom: 1px solid #ccc!important;
+}
+
+.evento-dia {
+    font-size: 48px;
+    font-weight: 900;
+    color: #355ABF;
+    margin-right: 8px;
+    align-items: start;
+}
+
+.coloquio-eventos-container {
+    align-items: start!important;
+    margin-right: 1rem;
+}
+
+.evento-mes {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 900;
+    color: #355ABF;
+}
+
+.evento-hora {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #355ABF;
+}
+
+.evento-info {
+    margin-left: 24px;
+}
+
+.evento-title {
+    font-size: 24px;
+    line-height: 28px;
+    color: #4C82DA;
+}
+
+.evento-ponente {
+    font-size: 18px;
+    color: #707070;
+    font-weight: bold;
+}
+
+#contacto {
+    background-color: #3964A8;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#contacto h1 {
+    color: white!important;
+}
+
+#contacto h4 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 18px;
+}
+
+.contacto-item {
+    padding: 0px 0 4px 0;
+    /*border-bottom: 1px solid #4C82DA!important;*/
+}
+
+#footer {
+    background-color: #002550;
+    padding-top: 68px;
+    padding-bottom: 48px;
+}
