@@ -2,10 +2,42 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+}
+
+.university-container {
+    margin-right: 12px;
+}
+
+.brand-university {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: bold;
+    color: #04306A;
+}
+
+.brand-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #002550;
+    line-height: 18px;
+}
+
+.text-container {
 }
 
 .hero-image {
     background-image: url("../img/BANNER1.png");
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 100px;
+}
+
+.hero-maestria {
+    background-image: url("../img/banner2.png");
     height: 450px;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,6 +52,11 @@ body {
     font-weight: 900;
     font-size: 64px;
     line-height: 62px;
+}
+
+.hero-lugar {
+    color: #4C82DA;
+    font-weight: bold;
 }
 
 .ccm-participantes {
@@ -58,6 +95,16 @@ h1 {
 
 .mt-100 {
     margin-top: 100px;
+}
+
+#introduccion-maestria p {
+    font-size: 18px;
+    line-height: 26px;
+    color: #353535;
+}
+
+#introduccion-maestria h4 {
+    color: #5a5a5a;
 }
 
 #oferta-academica {
@@ -104,9 +151,15 @@ h1 {
     color: #4C82DA;
 }
 
+#convocatorias .list-group {
+    border-left: 4px solid #4C82DA!important;
+}
+
 #convocatorias .list-group-item {
     color: #707070;
     background-color: #F7F9FC;
+    padding: 0.15rem 1rem;
+    border: none;
 }
 
 .yellow {
@@ -131,8 +184,8 @@ h1 {
     font-size: 48px;
     font-weight: 900;
     color: #355ABF;
-    margin-right: 8px;
-    align-items: start;
+    align-items: center;
+    line-height: 48px;
 }
 
 .coloquio-eventos-container {
@@ -141,10 +194,11 @@ h1 {
 }
 
 .evento-mes {
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
     color: #355ABF;
+    align-items: center;
 }
 
 .evento-hora {
@@ -159,7 +213,8 @@ h1 {
 }
 
 .evento-title {
-    font-size: 24px;
+    font-size: 28px;
+    font-weight: bold;
     line-height: 28px;
     color: #4C82DA;
 }
@@ -168,6 +223,21 @@ h1 {
     font-size: 18px;
     color: #707070;
     font-weight: bold;
+}
+
+.evento-adscripcion {
+    margin-left: .4rem;
+    color: #707070;
+}
+
+.evento-lugar {
+    color: #707070;
+    margin-right: 8px;
+}
+
+.evento-hora {
+    color: #4C82DA;
+    margin-left: 8px;
 }
 
 #contacto {
@@ -182,15 +252,17 @@ h1 {
 }
 
 #contacto h4 {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
-    font-weight: 900;
-    color: white;
-    margin-bottom: 18px;
+    font-weight: 600;
+    color: #d1e3ff;
+    margin-bottom: 16px;
 }
 
 .contacto-item {
     padding: 0px 0 4px 0;
+    font-size: 14px;
+    font-weight: 300;
     /*border-bottom: 1px solid #4C82DA!important;*/
 }
 
@@ -198,4 +270,15 @@ h1 {
     background-color: #002550;
     padding-top: 68px;
     padding-bottom: 48px;
+}
+
+.copy-right {
+    font-size: 12px;
+}
+
+/* Maestría */
+
+#maestria-info {
+    padding: 20px 0 40px 0;
+    /*background-color: #f3f7ff;*/
 }

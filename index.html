@@ -16,12 +16,26 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-        <a class="navbar-brand" href="#">PCCM-UNAM</a>
+        <div class="brand-container d-flex align-itemx-center">
+            <div class="university-container">
+                <img src="img/escudo-unam.png" alt="escudo UNAM">
+                <div class="brand-university d-flex justify-content-center">UNAM</div>
+            </div>
+            <div class="university-container">
+                <img src="img/escudo-umich.png" alt="escudo UMSNH" height="42px">
+                <div class="brand-university d-flex justify-content-center">UMICH</div>
+            </div>
+            <div class="university-container d-flex align-items-center">
+                <div class="brand-text">
+                    Posgrado Conjunto en<br>Ciencias Matemáticas
+                </div>
+            </div>
+        </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Programas</a>
                 </li>
@@ -49,6 +63,7 @@
             <div class=""><img src="img/unam.png" alt="UNAM" class="hero-universidad"></div>
             <div class="ms-4"><img src="img/umich.png" alt="UMICH" class="hero-universidad"></div>
         </div>
+        <div class="hero-lugar mt-2"><i class="bi bi-geo-alt"></i> Morelia, Michoacán.</div>
     </div>
 </div>
 
@@ -65,7 +80,7 @@
 
 
 <section id="introduccion">
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
             <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
                 <h1 class="mt-100 mb-4">El estudio de las Matemáticas</h1>
@@ -78,7 +93,7 @@
 
             </div>
             <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden">
-                <img src="img/introduccion.png" alt="imagen abstracta introducción">
+                <img src="img/introduccion.png" alt="imagen abstracta introducción" style="position: relative; top: -2px; ">
             </div>
         </div>
     </div>
@@ -115,24 +130,47 @@
 
 </section>
 
+<div class="container">
+
+    <h1 class="my-5">Campos de Conocimiento</h1>
+
+    <div class="row">
+        <div class="col-12 col-lg-6 ">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><i class="bi bi-check-lg blue"></i> Álgebra</li>
+                <li class="list-group-item"><i class="bi bi-check-lg blue"></i> Análisis Matemático Aplicado</li>
+                <li class="list-group-item"><i class="bi bi-check-lg blue"></i> Biomatemática</li>
+                <li class="list-group-item"><i class="bi bi-check-lg blue"></i> Física Matemática</li>
+            </ul>
+        </div>
+        <div class="col-12 col-lg-6 ">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><i class="bi bi-check-lg blue"></i> Geometría Algebraica y Diferencial</li>
+                <li class="list-group-item"><i class="bi bi-check-lg blue"></i> Matemáticas Discretas</li>
+                <li class="list-group-item"><i class="bi bi-check-lg blue"></i> Topología y Teoría de Conjuntos</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
 <section id="convocatorias">
     <div class="container">
         <h1 class="my-5">Convocatorias Vigentes</h1>
 
-        <div class="row mb-5">
-            <div class="col-12 col-lg-6 h-100">
-                <div class="convocatoria-card mb-3">
+        <div class="row mb-4">
+            <div class="col-12 col-lg-6">
+                <div class="convocatoria-card h-100">
                     <div class="convocatoria-title mb-3">Ingreso al Posgrado</div>
 
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><i class="bi bi-megaphone yellow me-3"></i>Convocatoria de <strong>Ingreso 2022-1</strong></li>
-                        <li class="list-group-item"><i class="bi bi-file-earmark yellow me-3"></i>Instructivo <strong>Maestría y Doctorado</strong> 2022-1</li>
-                        <li class="list-group-item"><i class="bi bi-file-earmark yellow me-3"></i>Plan de Estudios <strong>Maestría</strong></li>
-                        <li class="list-group-item"><i class="bi bi-calendar yellow me-3"></i>Calendario de <strong>Ingreso</strong></li>
+                        <li class="list-group-item"><i class="bi bi-megaphone blue me-3"></i>Convocatoria de <strong>Ingreso 2022-1</strong></li>
+                        <li class="list-group-item"><i class="bi bi-file-earmark blue me-3"></i>Instructivo <strong>Maestría y Doctorado</strong> 2022-1</li>
+                        <li class="list-group-item"><i class="bi bi-file-earmark blue me-3"></i>Plan de Estudios <strong>Maestría</strong></li>
+                        <li class="list-group-item"><i class="bi bi-calendar blue me-3"></i>Calendario de <strong>Ingreso</strong></li>
                     </ul>
                 </div>
             </div>
-            <div class="col-12 col-lg-6 h-100">
+            <div class="col-12 col-lg-6">
                 <div class="convocatoria-card h-100">
                     <div class="convocatoria-title mb-3">Reingreso al Posgrado</div>
                     <ul class="list-group list-group-flush">
@@ -152,29 +190,33 @@
 
         <div class="coloquio-eventos-container">
             <div class="coloquio-evento d-flex">
-                <div class="evento-dia align-self-center">07</div>
-                <div class="mes-dias-container flex-column align-self-center">
-                    <div class="evento-mes">OCT</div>
-                    <div class="evento-hora">13:00</div>
+                <div class="date-container flex-column">
+                    <div class="evento-dia text-center">07</div>
+                    <div class="evento-mes text-center">OCT</div>
                 </div>
                 <div class="evento-info align-self-center">
                     <div class="evento-title">Conexidad condicional y coloraciones en gráficas</div>
                     <div class="d-inline-flex align-items-baseline">
                         <div class="evento-ponente">Mucuy-kak Guevara Aguirre</div><div class="evento-adscripcion">Universidad de la Habana</div>
                     </div>
+                    <div class="event-hora-lugar d-flex align-items-baseline">
+                        <div class="evento-lugar"><i class="bi bi-geo-alt"></i> Auditorio CCM</div>|<div class="evento-hora"><i class="bi bi-clock"></i> 13:00 horas</div>
+                    </div>
                 </div>
             </div>
 
             <div class="coloquio-evento d-flex">
-                <div class="evento-dia align-self-center">07</div>
-                <div class="mes-dias-container flex-column align-self-center">
-                    <div class="evento-mes">OCT</div>
-                    <div class="evento-hora">13:00</div>
+                <div class="date-container flex-column">
+                    <div class="evento-dia text-center">07</div>
+                    <div class="evento-mes text-center">OCT</div>
                 </div>
                 <div class="evento-info align-self-center">
                     <div class="evento-title">Conexidad condicional y coloraciones en gráficas</div>
                     <div class="d-inline-flex align-items-baseline">
                         <div class="evento-ponente">Mucuy-kak Guevara Aguirre</div><div class="evento-adscripcion">Universidad de la Habana</div>
+                    </div>
+                    <div class="event-hora-lugar d-flex align-items-baseline">
+                        <div class="evento-lugar"><i class="bi bi-geo-alt"></i> Auditorio CCM</div>|<div class="evento-hora"><i class="bi bi-clock"></i> 13:00 horas</div>
                     </div>
                 </div>
             </div>
@@ -190,39 +232,40 @@
             <div class="col-12 col-lg-4">
                 <h4>COORDINACIÓN DEL POSGRADO</h4>
                 <div class="d-flex flex-column">
-                    <div class="contacto-item">Lic. Morelia Álvarez</div>
-                    <div class="contacto-item">Teléfono Morelia (443) 322 2741</div>
-                    <div class="contacto-item">Teléfono CDMX 5623 2741</div>
-                    <div class="contacto-item">posmat X matmor.unam.mx</div>
+                    <div class="contacto-item"><i class="bi bi-person-fill"></i> Lic. Morelia Álvarez</div>
+                    <div class="contacto-item"><i class="bi bi-telephone"></i> Teléfono Morelia (443) 322 2741</div>
+                    <div class="contacto-item"><i class="bi bi-telephone"></i> Teléfono CDMX 5623 2741</div>
+                    <div class="contacto-item"><i class="bi bi-envelope"></i> posmat X matmor.unam.mx</div>
                 </div>
             </div>
             <div class="col-12 col-lg-4">
                 <h4>INSTITUTO DE FÍSICA Y MATEMÁTICAS UMSNH</h4>
-                <div class="contacto-item">Instituto de Física y Matemáticas Edificio C-3,<br>
-                    Ciudad Universitaria.</div>
+                <div class="contacto-item"><i class="bi bi-geo-alt"></i> Instituto de Física y Matemáticas Edificio C-3,</div>
+                <div class="contacto-item">Ciudad Universitaria.</div>
                 <div class="contacto-item">C.P. 58140, Morelia, Michoacán, México</div>
-                <div class="contacto-item">Control Escolar: (443) 322 3500, ext 3070</div>
-                <div class="contacto-item">direccion.ifm X umich.mx</div>
+                <div class="contacto-item"><i class="bi bi-telephone"></i> Control Escolar: (443) 322 3500, ext 3070</div>
+                <div class="contacto-item"><i class="bi bi-envelope"></i> direccion.ifm X umich.mx</div>
             </div>
             <div class="col-12 col-lg-4">
                 <h4>CENTRO DE CIENCIAS MATEMÁTICAS UNAM</h4>
-                <div class="contacto-item">UNAM, Campus Morelia<br>
-                    Morelia, Michoacán, México.<br>
+                <div class="contacto-item"><i class="bi bi-geo-alt"></i> UNAM, Campus Morelia</div>
+                <div class="contacto-item ps-3">Morelia, Michoacán, México.<br>
                     Antigüa Carretera a Pátzcuaro #8701<br>
                     Col. Ex Hacienda de San José de la Huerta<br>
                     C.P. 58089, Morelia, Michoacán, México</div>
             </div>
         </div>
     </div>
+
 </section>
 
 <footer id="footer">
     <div class="container">
         <div class="d-flex justify-content-center">
-            <div class="me-3"><img src="img/CONACYT_LOGO.png" alt="Logo Conacyt"></div>
-            <div class="ms-3"><img src="img/posgrado-unam.png" alt="Logo Posgrado UNAM"></div>
+            <div class="align-self-center me-4"><img src="img/posgrado-unam.png" alt="Logo Posgrado UNAM"></div>
+            <div class="align-self-center ms-4"><img src="img/CONACYT_LOGO.png" alt="Logo Conacyt"></div>
         </div>
-        <p class="text-center fw-bolder text-light mt-5">© 2022 Centro de Ciencias Matemáticas<br>
+        <p class="copy-right text-center fw-bolder text-light mt-5">© 2022 Centro de Ciencias Matemáticas<br>
             Universidad Nacional Autónoma de México, Campus Morelia<br>
             <span class="fw-light">todos los derechos reservados.</span></p>
     </div>
