@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .university-container {
@@ -24,6 +24,44 @@ body {
 }
 
 .text-container {
+}
+
+.h4, h4 {
+    font-size: 1.5rem;
+    color: #333f93;
+    font-weight: bold;
+    border-color: #e1e1e1;
+    padding-bottom: 4px;
+    margin-bottom: 1.2rem;
+    margin-top: 2rem;
+}
+
+.h3, h3 {
+    color: #4a4a4a;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.content {
+    font-size: 1rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+    color: #4c82da;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #275cb3;
+    background: #d7e5ff;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #003e87;
+    border-bottom: #003e87 solid 2px;
 }
 
 .hero-image {
@@ -66,11 +104,13 @@ body {
 
 .ccm-participantes h4 {
     color: white;
+    font-weight: normal;
+    font-size: 1.2rem;
 }
 
 .titulo-participantes {
     background-color: #003e87;
-    padding: 24px 0 24px 0;
+    padding: 8px 0 8px 0;
 }
 
 .participante {
@@ -160,6 +200,10 @@ h1 {
     background-color: #F7F9FC;
     padding: 0.15rem 1rem;
     border: none;
+}
+
+.list-group-item {
+    padding: 1rem 0;
 }
 
 .yellow {
@@ -279,6 +323,6 @@ h1 {
 /* Maestría */
 
 #maestria-info {
-    padding: 20px 0 40px 0;
+    padding: 0px 0 40px 0;
     /*background-color: #f3f7ff;*/
 }
