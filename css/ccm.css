@@ -31,9 +31,8 @@ body {
     color: #333f93;
     font-weight: bold;
     border-color: #e1e1e1;
-    padding-bottom: 4px;
-    margin-bottom: 1.2rem;
-    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1.8rem;
 }
 
 .h3, h3 {
@@ -76,6 +75,16 @@ p {
 
 .hero-maestria {
     background-image: url("../img/banner2.png");
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 100px;
+}
+
+.hero-doctorado {
+    background-image: url("../img/banner3.png");
     height: 450px;
     background-position: center;
     background-repeat: no-repeat;
@@ -179,6 +188,11 @@ h1 {
     line-height: 72px;
 }
 
+#campos-conocimiento .list-group-item {
+    font-size: 1.2rem;
+    color: #4a4a4a;
+}
+
 .convocatoria-card {
     border-radius: 12px;
     background-color: #F7F9FC;
@@ -207,7 +221,12 @@ h1 {
 }
 
 .yellow {
-    color: #F9B82E;
+    /*color: #F9B82E;*/
+    color: #bf7921;
+}
+
+.purple {
+    color: #806DEC;
 }
 
 .blue {
@@ -323,6 +342,21 @@ h1 {
 /* Maestría */
 
 #maestria-info {
-    padding: 0px 0 40px 0;
+    padding: 0 0 40px 0;
     /*background-color: #f3f7ff;*/
+}
+
+#doctorado-info {
+    padding: 0 0 40px 0;
+    /*background-color: #f3f7ff;*/
+}
+
+.contenedor-denominacion {
+    background-color: aliceblue;
+    padding: 20px 0 20px 0;
+    margin-top: 1rem;
+}
+
+li {
+    padding: 4px 0 4px 0;
 }
