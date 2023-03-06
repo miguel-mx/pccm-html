@@ -340,6 +340,13 @@ h1 {
     margin-bottom: 16px;
 }
 
+.contacto-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #002550;
+    letter-spacing: 0;
+}
+
 .contacto-item {
     padding: 0 0 4px 0;
     font-size: 14px;
