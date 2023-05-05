@@ -16,7 +16,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-        <div class="brand-container d-flex align-itemx-center">
+        <div class="brand-container d-none d-sm-flex align-item-center">
             <div class="university-container">
                 <img src="img/escudo-unam.png" alt="escudo UNAM">
                 <div class="brand-university d-flex justify-content-center">UNAM</div>
@@ -42,17 +42,17 @@
                     <a class="nav-link" href="nosotros.html">Posgrado</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Programas</a>
+                    <a class="nav-link dropdown-toggle active" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Programas</a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <li><a class="dropdown-item" href="maestria.html">Maestría</a></li>
                         <li><a class="dropdown-item" href="doctorado.html">Doctorado</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Admisión</a>
+                    <a class="nav-link" href="admision.html">Admisión</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Estudiantes</a>
+                    <a class="nav-link" href="alumnos.html">Estudiantes</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="tutores.html">Tutores</a>
@@ -70,21 +70,20 @@
     <div class="container">
         <div class="hero-text yellow">Posgrado Conjunto en</div>
         <div class="hero-text yellow">Ciencias Matemáticas</div>
-        <div class="d-flex mt-4 yellow">
+        <div class="d-flex flex-column flex-sm-row mt-4 align-items-baseline">
             <div class=""><img src="img/unam.png" alt="UNAM" class="hero-universidad"></div>
-            <div class="ms-4"><img src="img/umich.png" alt="UMICH" class="hero-universidad"></div>
+            <div class="ms-sm-4 mt-2"><img src="img/umich.png" alt="UMICH" class="hero-universidad"></div>
         </div>
-        <div class="hero-lugar yellow mt-2"><i class="bi bi-geo-alt"></i> Morelia, Michoacán.</div>
+        <div class="hero-lugar yellow mt-3"><i class="bi bi-geo-alt"></i> Morelia, Michoacán.</div>
     </div>
 </div>
 
 <div class="ccm-participantes">
-
     <div class="titulo-participantes text-center mb-5"><h4>Instituciones Participantes</h4></div>
-    <div class="d-flex justify-content-center align-items-center">
-        <div class="mx-5"><img class="participante" src="img/FISMAT.png" alt="FISMAT logo"></div>
-        <div class="mx-5"><img class="participante" src="img/ccm-logo.png" alt="CCM logo"></div>
-        <div class="mx-5"><img class="participante"  src="img/IFM_LOGO_BLANCO_H.png" alt="IFM logo"></div>
+    <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center">
+        <div class="mx-sm-5"><img class="participante" src="img/ccm-logo.png" alt="CCM logo"></div>
+        <div class="mx-sm-5 mt-3 mt-sm-0"><img class="participante" src="img/FISMAT.png" alt="FISMAT logo"></div>
+        <div class="mx-sm-5 mt-4 mt-sm-0"><img class="participante"  src="img/IFM_LOGO_BLANCO_H.png" alt="IFM logo"></div>
     </div>
 </div>
 
@@ -92,7 +91,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <h1 class="yellow mt-100 mb-4">Programa de Maestría</h1>
+                <h1 class="yellow mt-100 mb-4 mt-5">Programa de Maestría</h1>
                 <h4 class="mb-4"><strong>Maestría en Ciencias Matemáticas</strong></h4>
                 <p><strong>Objetivo:</strong> Dotar al alumno de amplios y profundos conocimientos avanzados tanto de
                     matemáticas en general, como de un área en particular de esta ciencia. Estos estudios proporcionarán
@@ -104,7 +103,7 @@
                     análisis, la abstracción y la formación conceptual son relevantes.
                 </p>
             </div>
-            <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden">
+            <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden d-none d-lg-inline">
                 <img class="w-100" src="img/banner-maestria.png" alt="imagen abstracta introducción">
             </div>
         </div>
@@ -281,9 +280,9 @@
 
 <footer id="footer">
     <div class="container">
-        <div class="d-flex justify-content-center">
-            <div class="align-self-center me-4"><img src="img/posgrado-unam.png" alt="Logo Posgrado UNAM"></div>
-            <div class="align-self-center ms-4"><img src="img/CONACYT_LOGO.png" alt="Logo Conacyt"></div>
+        <div class="d-flex flex-column flex-sm-row justify-content-center">
+            <div class="align-self-center me-sm-4"><img src="img/posgrado-unam.png" alt="Logo Posgrado UNAM"></div>
+            <div class="align-self-center ms-sm-4 mt-4 mt-sm-0"><img src="img/CONACYT_LOGO.png" alt="Logo Conacyt"></div>
         </div>
         <p class="copy-right text-center fw-bolder text-light mt-5">© 2022 Centro de Ciencias Matemáticas<br>
             Universidad Nacional Autónoma de México, Campus Morelia<br>

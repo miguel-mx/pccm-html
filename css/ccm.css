@@ -5,105 +5,25 @@ body {
     font-size: 1rem;
 }
 
-.university-container {
-    margin-right: 12px;
-}
-
-.university-container:hover {
-    background-color: #e0e0e0;
-}
-
-.brand-university {
-    font-size: 12px;
-    line-height: 14px;
-    font-weight: bold;
-    color: #04306A;
-}
-
-.brand-text {
-    font-size: 16px;
-    font-weight: bold;
-    color: #002550;
-    line-height: 18px;
-}
-
-.text-container {
-}
-
-.h4, h4 {
-    font-size: 1.5rem;
-    color: #333f93;
-    font-weight: bold;
-    border-color: #e1e1e1;
-    margin-bottom: 1rem;
-    margin-top: 1.8rem;
-}
-
-.h3, h3 {
-    color: #4a4a4a;
-}
-
-p {
-    font-size: 1rem;
-}
-
-.content {
-    font-size: 1rem;
-}
-
-.navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 1.2rem;
-    padding-left: 1.2rem;
-    color: #4c82da;
-}
-
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: #275cb3;
-    background: #d7e5ff;
-}
-
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
-    color: #003e87;
-    border-bottom: #003e87 solid 2px;
-}
-
 .hero-image {
-    background-image: url("../img/BANNER1.png");
-    height: 450px;
+    background-image: url(../img/hero-mobile.jpg);
+    height: 300px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    padding-top: 100px;
+    padding-top: 40px;
 }
 
-.hero-maestria {
-    background-image: url("../img/BANNER2.png");
-    height: 450px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    padding-top: 100px;
-}
-
-.hero-doctorado {
-    background-image: url("../img/BANNER3.png");
-    height: 450px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    padding-top: 100px;
-}
-
-
-/* Place text in the middle of the image */
 .hero-text {
     color: #4C82DA;
     font-weight: 900;
-    font-size: 64px;
-    line-height: 62px;
+    font-size: 32px;
+    line-height: 34px;
+}
+
+.hero-universidad {
+    max-height: 40px;
 }
 
 .hero-lugar {
@@ -116,15 +36,15 @@ p {
     background-color: #002550;
 }
 
+.titulo-participantes {
+    background-color: #003e87;
+    padding: 16px 0 12px 0;
+}
+
 .ccm-participantes h4 {
     color: white;
     font-weight: normal;
     font-size: 1.2rem;
-}
-
-.titulo-participantes {
-    background-color: #003e87;
-    padding: 8px 0 8px 0;
 }
 
 .participante {
@@ -134,31 +54,9 @@ p {
 h1 {
     font-family: 'Inter', sans-serif;
     color: #04306A;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: bolder;
-    line-height: 44px;
-
-}
-
-#introduccion p {
-    font-size: 20px;
-    line-height: 30px;
-    font-weight: 500;
-    color: #353535;
-}
-
-.mt-100 {
-    margin-top: 100px;
-}
-
-#introduccion-maestria p {
-    font-size: 18px;
-    line-height: 26px;
-    color: #353535;
-}
-
-#introduccion-maestria h4 {
-    color: #5a5a5a;
+    line-height: 34px;
 }
 
 #oferta-academica {
@@ -181,48 +79,21 @@ h1 {
 }
 
 .oferta-subtitle {
-    font-size: 32px;
+    font-size: 24px;
     color: white;
     font-weight: lighter;
 }
 
 .oferta-title {
-    font-size: 72px;
+    font-size: 58px;
     color: #F9B82E;
     font-weight: 900;
     line-height: 72px;
 }
 
 #campos-conocimiento .list-group-item {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #4a4a4a;
-}
-
-.convocatoria-card {
-    border-radius: 12px;
-    background-color: #F7F9FC;
-    padding: 24px;
-}
-
-.convocatoria-title {
-    font-size: 24px;
-    font-weight: normal;
-    color: #4C82DA;
-}
-
-#convocatorias .list-group {
-    border-left: 4px solid #4C82DA!important;
-}
-
-#convocatorias .list-group-item {
-    color: #707070;
-    background-color: #F7F9FC;
-    padding: 0.15rem 1rem;
-    border: none;
-}
-
-.list-group-item {
-    padding: 1rem 0;
 }
 
 .yellow {
@@ -246,9 +117,40 @@ h1 {
     color: #355ABF;
 }
 
-
 .dark-blue {
     color: #022550;
+}
+
+.convocatoria-card {
+    border-radius: 12px;
+    background-color: #F7F9FC;
+    padding: 24px;
+}
+
+.h-100 {
+    height: 100%!important;
+}
+
+.convocatoria-title {
+    font-size: 24px;
+    font-weight: normal;
+    color: #4C82DA;
+}
+
+#convocatorias .list-group-item {
+    color: #707070;
+    background-color: #F7F9FC;
+    padding: 0.15rem 1rem;
+    border: none;
+    font-size: 14px;
+}
+
+.list-group-item {
+    padding: 1rem 0;
+}
+
+#convocatorias .list-group {
+    border-left: 4px solid #4C82DA!important;
 }
 
 #coloquio {
@@ -262,7 +164,7 @@ h1 {
 }
 
 .evento-dia {
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 900;
     color: #355ABF;
     align-items: center;
@@ -282,21 +184,14 @@ h1 {
     align-items: center;
 }
 
-.evento-hora {
-    font-size: 16px;
-    line-height: 18px;
-    font-weight: 500;
-    color: #355ABF;
-}
-
 .evento-info {
     margin-left: 24px;
 }
 
 .evento-title {
-    font-size: 28px;
+    font-size: 24px;
+    line-height: 24px;
     font-weight: bold;
-    line-height: 28px;
     color: #4C82DA;
 }
 
@@ -307,8 +202,11 @@ h1 {
 }
 
 .evento-adscripcion {
-    margin-left: .4rem;
     color: #707070;
+}
+
+.evento-hora-lugar {
+    margin-top: 12px;
 }
 
 .evento-lugar {
@@ -317,8 +215,20 @@ h1 {
 }
 
 .evento-hora {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
     color: #4C82DA;
-    margin-left: 8px;
+}
+
+#footer {
+    background-color: #002550;
+    padding-top: 68px;
+    padding-bottom: 48px;
+}
+
+.copy-right {
+    font-size: 10px;
 }
 
 #contacto {
@@ -354,10 +264,452 @@ h1 {
     /*border-bottom: 1px solid #4C82DA!important;*/
 }
 
-#footer {
+.hero-nosotros {
+    background-image: url("../img/banner-posgrado-mobil.png");
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 100px;
+}
+
+#nosotros-info {
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+
+#nosotros-datos {
     background-color: #002550;
+    color: white;
     padding-top: 68px;
     padding-bottom: 48px;
+}
+
+.datos-number {
+    font-size: 48px;
+    font-weight: bold;
+    color: #FFC107;
+    min-width: 100px;
+    text-align: end;
+}
+
+.datos-text {
+    font-size: 18px;
+    color: white;
+    margin-left: 12px;
+    line-height: 20px;
+    min-width: 120px;
+}
+
+#lineas-conocimiento {
+    background-color: #F7F9FC;
+    font-size: 18px;
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+
+.linea-conocimiento {
+    padding: 20px 0;
+    border-bottom: #C3C3C3 solid 1px;
+}
+
+#comisiones {
+    background-color: #ffffff;
+    font-size: 18px;
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+
+.comision {
+    border-bottom: #707070 1px solid ;
+    font-size: 16px;
+    padding: 16px 0;
+}
+
+.comision-nombre {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.comision-adscripcion {
+    color: #707070;
+    font-weight: bold;
+}
+
+.hero-maestria {
+    background-image: url("../img/maestria.png");
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 48px;
+}
+
+.hero-doctorado {
+    background-image: url("../img/hero-doctorado-mobile.png");
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 48px;
+}
+
+.comision-correo {
+    color: #707070;
+}
+
+.hero-admision {
+    background-image: url(../img/hero-admision-mobile.png);
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 64px;
+}
+
+#admission {
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.admission-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #002550;
+    letter-spacing: 0;
+}
+
+#admission .list-group {
+    border-left: 4px solid #4C82DA!important;
+    padding: 24px 0;
+}
+
+.admission-card {
+    background-color: #F7F9FC;
+}
+
+#admission .list-group-item {
+    color: #707070;
+    background-color: #F7F9FC;
+    padding: 0.4rem 1rem;
+    border: none;
+}
+
+#admission .list-group-item:hover {
+    background-color: #ebebeb;
+}
+
+#admission .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #ffffff;
+    background-color: #4F84D7;
+    border-color: #4F84D7;
+}
+
+@media (min-width: 576px) {
+
+    .university-container {
+        margin-right: 12px;
+    }
+
+    .university-container:hover {
+        color: #4F84D7;
+    }
+
+    .brand-university {
+        font-size: 12px;
+        line-height: 14px;
+        font-weight: bold;
+        color: #04306A;
+    }
+
+    .brand-text {
+        font-size: 16px;
+        font-weight: bold;
+        color: #002550;
+        line-height: 18px;
+    }
+
+    .text-container {
+    }
+
+    .h4, h4 {
+        font-size: 1.5rem;
+        color: #333f93;
+        font-weight: bold;
+        border-color: #e1e1e1;
+        margin-bottom: 1rem;
+        margin-top: 1.8rem;
+    }
+
+    .h3, h3 {
+        color: #4a4a4a;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .content {
+        font-size: 1rem;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1.2rem;
+        padding-left: 1.2rem;
+        color: #4c82da;
+    }
+
+    .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+        color: #275cb3;
+        background: #d7e5ff;
+    }
+
+    .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+        color: #003e87;
+        border-bottom: #003e87 solid 2px;
+    }
+
+    .hero-image {
+        background-image: url("../img/BANNER1.png");
+        height: 450px;
+        padding-top: 100px;
+    }
+
+    .hero-nosotros {
+        background-image: url("../img/BANNER_NOSOTROS.png");
+        height: 300px;
+        padding-top: 100px;
+    }
+
+    .hero-maestria {
+        background-image: url("../img/BANNER2.png");
+        height: 450px;
+        padding-top: 100px;
+    }
+
+    .hero-doctorado {
+        background-image: url("../img/BANNER3.png");
+        height: 450px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        padding-top: 100px;
+    }
+
+    /* Place text in the middle of the image */
+    .hero-text {
+        color: #4C82DA;
+        font-weight: 900;
+        font-size: 64px;
+        line-height: 62px;
+    }
+
+    .ccm-participantes {
+        padding: 0 0 52px 0;
+        background-color: #002550;
+    }
+
+    .ccm-participantes h4 {
+        color: white;
+        font-weight: normal;
+        font-size: 1.2rem;
+    }
+
+    .titulo-participantes {
+        background-color: #003e87;
+        padding: 8px 0 8px 0;
+    }
+
+    .participante {
+        max-height: 60px;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    #introduccion p {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 500;
+        color: #353535;
+    }
+
+    .mt-100 {
+        margin-top: 100px;
+    }
+
+    #introduccion-maestria p {
+        font-size: 18px;
+        line-height: 26px;
+        color: #353535;
+    }
+
+    #introduccion-maestria h4 {
+        color: #5a5a5a;
+    }
+
+    #oferta-academica {
+        background-color: #002550;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .oferta-subtitle {
+        font-size: 32px;
+    }
+
+    .oferta-title {
+        font-size: 72px;
+    }
+
+    #convocatorias .list-group-item {
+        font-size: 16px;
+    }
+
+    #campos-conocimiento .list-group-item {
+        font-size: 1.2rem;
+    }
+
+    .evento-dia {
+        font-size: 48px;
+    }
+
+    .evento-title {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .evento-adscripcion {
+        margin-left: .4rem;
+    }
+
+    .evento-hora-lugar {
+        margin-top: 0;
+    }
+
+    .evento-hora {
+        margin-left: 8px;
+    }
+
+    #comisiones {
+        padding-top: 68px;
+        padding-bottom: 48px;
+    }
+
+    #lineas-conocimiento {
+        padding-top: 68px;
+        padding-bottom: 48px;
+    }
+
+    .comision {
+        max-width: 75%;
+    }
+
+    #nosotros-datos {
+        background-color: #002550;
+        color: white;
+        padding-top: 68px;
+        padding-bottom: 48px;
+    }
+
+    .datos-number {
+        font-size: 48px;
+        font-weight: bold;
+        color: #FFC107;
+    }
+
+    .datos-text {
+        font-size: 18px;
+        color: white;
+        margin-left: 12px;
+        line-height: 20px;
+        min-width: 140px;
+    }
+
+    .yellow {
+        /* color: #F9B82E; */
+        color: #bf7921;
+    }
+
+    .hero-tutores {
+        background-image: url("../img/BANNER_TUTORES.png");
+        height: 300px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        padding-top: 100px;
+    }
+
+    .hero-admision {
+        background-image: url("../img/BANNER_TUTORES.png");
+        height: 300px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        padding-top: 100px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    .hero-text {
+        font-size: 48px;
+    }
+
+    .comision {
+        max-width: 100%;
+    }
+
+    .copy-right {
+        font-size: 12px;
+    }
+}
+
+#coordinacion {
+    background-color: #F7F9FC;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#coordinacion p {
+    color: #707070;
+    margin-bottom: .4rem;
+}
+
+#basicos {
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.basico:hover {
+    color: #4C82DA;
+    border-bottom: #cbc9c9 solid 1px;
+}
+
+#cursos {
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#cursos td {
+    font-size: 13px;
+}
+
+#alumnos {
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .copy-right {
@@ -398,60 +750,11 @@ li {
     padding-top: 100px;
 }
 
-.hero-nosotros {
-    background-image: url("../img/BANNER_NOSOTROS.png");
-    height: 300px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    padding-top: 100px;
-}
-
-#nosotros-datos {
-    background-color: #002550;
-    color: white;
-    padding-top: 68px;
-    padding-bottom: 48px;
-}
-
-.datos-number {
-    font-size: 48px;
-    font-weight: bold;
-    color: #FFC107;
-}
-
-.datos-text {
-    font-size: 18px;
-    color: white;
-    margin-left: 12px;
-    line-height: 20px;
-}
-
 #objetivos {
     background-color: #ffffff;
     font-size: 18px;
     padding-top: 68px;
     padding-bottom: 48px;
-}
-
-#comisiones {
-    background-color: #ffffff;
-    font-size: 18px;
-    padding-top: 68px;
-    padding-bottom: 48px;
-}
-
-#lineas-conocimiento {
-    background-color: #F7F9FC;
-    font-size: 18px;
-    padding-top: 68px;
-    padding-bottom: 48px;
-}
-
-.linea-conocimiento {
-    padding: 20px 0;
-    border-bottom: #C3C3C3 solid 1px;
 }
 
 .objetivos-text {
@@ -462,27 +765,6 @@ li {
     font-weight: bold;
     font-size: 20px;
     color: #04306A;
-}
-
-.comision {
-    border-bottom: #707070 1px solid ;
-    font-size: 16px;
-    max-width: 70%;
-    padding: 16px 0;
-}
-
-.comision-nombre {
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.comision-adscripcion {
-    color: #707070;
-    font-weight: bold;
-}
-
-.comision-correo {
-    color: #707070;
 }
 
 #nucleo-academico {
@@ -499,6 +781,7 @@ li {
     font-size: 14px;
     color: #707070;
     padding: 18px 18px;
+    min-height: 120px;
 
 }
 
@@ -506,6 +789,37 @@ li {
     background-color: #f0f6ff;
     font-size: 14px;
 
+}
+
+#generales {
+    background-color: #F7F9FC;
+    padding: 40px 0 40px 0;
+}
+
+#generales .list-group {
+    border-left: 4px solid #4C82DA!important;
+    padding: 14px 0;
+}
+
+.generales-card {
+    background-color: #F7F9FC;
+}
+
+#generales .list-group-item {
+    color: #707070;
+    background-color: #F7F9FC;
+    padding: 0.4rem 1rem;
+    border: none;
+}
+
+#generales .list-group-item:hover {
+    background-color: #ebebeb;
+}
+
+#generales .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #ffffff;
+    background-color: #4F84D7;
+    border-color: #4F84D7;
 }
 
 .hero-tutor-subtitle {
@@ -563,3 +877,4 @@ li {
 .tutor-text {
     max-width: 750px;
 }
+
