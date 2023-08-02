@@ -75,7 +75,10 @@
 
 <div class="alert alert-light mt-3">
     <div class="container">
-        <div class="fs-5 fw-bold"><i class="bi bi-megaphone me-3"></i> Convocatoria vigente, ingreso enero 2023 <button class="btn btn-success ms-5">Descargar PDF</button></div>
+        <div class="fs-5 fw-bold">
+            <i class="bi bi-megaphone me-3"></i> Convocatoria vigente, ingreso enero 2023
+            <a class="btn btn-success ms-5" href="files/convocatorias/semestre-2024-2/convocatoria2024-2_mayo2023.pdf" role="button">Descargar PDF</a>
+        </div>
     </div>
 </div>
 
@@ -95,11 +98,11 @@
 </div>
 
 <div class="ccm-participantes">
-    <div class="titulo-participantes text-center mb-5"><h4>Instituciones Participantes</h4></div>
+    <div class="titulo-participantes text-center mb-3"><h4>Instituciones Participantes</h4></div>
     <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center">
-        <div class="mx-sm-5"><img class="participante" src="img/ccm-logo.png" alt="CCM logo"></div>
-        <div class="mx-sm-5 mt-3 mt-sm-0"><img class="participante" src="img/FISMAT.png" alt="FISMAT logo"></div>
-        <div class="mx-sm-5 mt-4 mt-sm-0"><img class="participante"  src="img/IFM_LOGO_BLANCO_H.png" alt="IFM logo"></div>
+        <div class="mx-sm-5 ipart "><a href="http://www.matmor.unam.mx"><img class="participante" src="img/ccm-logo.png" alt="CCM logo"></a></div>
+        <div class="mx-sm-5 mt-3 mt-sm-0 ipart"><a href="http://www.fismat.umich.mx/src/index.php"><img class="participante" src="img/FISMAT.png" alt="FISMAT logo"></a></div>
+        <div class="mx-sm-5 mt-4 mt-sm-0 ipart"><a href="https://www.ifm.umich.mx/"><img class="participante"  src="img/IFM_LOGO_BLANCO_H.png" alt="IFM logo"></a></div>
     </div>
 </div>
 
@@ -215,8 +218,11 @@
                     <div class="convocatoria-title mb-3">Ingreso al Posgrado</div>
 
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><i class="bi bi-megaphone blue me-3"></i>Convocatoria de <strong>Ingreso 2022-1</strong></li>
-                        <li class="list-group-item"><i class="bi bi-file-earmark blue me-3"></i>Instructivo <strong>Maestría y Doctorado</strong> 2022-1</li>
+                        <li class="list-group-item">
+                            <a href="files/convocatorias/semestre-2024-2/convocatoria2024-2_mayo2023.pdf"><i class="bi bi-megaphone blue me-3"></i>Convocatoria de <strong>Ingreso 2022-1</strong></a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="files/convocatorias/semestre-2024-2/instructivo2024-2_mayo2023.pdf"><i class="bi bi-file-earmark blue me-3"></i>Instructivo <strong>Maestría y Doctorado</strong> 2022-1</li></a>
                         <li class="list-group-item"><i class="bi bi-file-earmark blue me-3"></i>Plan de Estudios <strong>Maestría</strong></li>
                         <li class="list-group-item"><i class="bi bi-calendar blue me-3"></i>Calendario de <strong>Ingreso</strong></li>
                     </ul>
@@ -241,6 +247,25 @@
         <h1 class="mb-3 mt-4">Coloquio del Posgrado</h1>
 
         <div class="coloquio-eventos-container">
+            <div class="coloquio-evento d-flex">
+                <div class="date-container flex-column">
+                    <div class="evento-dia text-center"></div>
+                    <div class="evento-mes text-center"></div>
+                </div>
+                <div class="evento-info align-self-center">
+                    <div class="evento-title">No hay Coloquio del Posgrado esta semana</div>
+                    <div class="d-flex flex-column flex-sm-row align-items-baseline">
+                        <div class="evento-ponente mt-2 mt-sm-0"></div><div class="evento-adscripcion"></div>
+                    </div>
+                    <div class="d-flex flex-column flex-sm-row align-items-baseline">
+                        <div class="evento-lugar mt-2 mt-sm-0"></div>
+                        <span class="d-none d-sm-inline text-secondary"></span>
+                        <div class="evento-hora mt-1 mt-sm-0"></div>
+                    </div>
+                </div>
+            </div>
+
+        <!--<div class="coloquio-eventos-container">
             <div class="coloquio-evento d-flex">
                 <div class="date-container flex-column">
                     <div class="evento-dia text-center">14</div>
@@ -326,7 +351,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
     </div>
 </section>
 
