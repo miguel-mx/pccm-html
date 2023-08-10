@@ -6,7 +6,7 @@ body {
 }
 
 .hero-image {
-    background-image: url(../img/hero-mobile.jpg);
+    background-image: url(../img/banner-pccm-mobile.png);
     height: 300px;
     background-position: center;
     background-repeat: no-repeat;
@@ -17,7 +17,7 @@ body {
 
 .hero-text {
     color: #ffffff;
-    font-weight: 300;
+    font-weight: 900;
     font-size: 32px;
     line-height: 34px;
 }
@@ -28,8 +28,9 @@ body {
 
 .hero-lugar {
     color: #ffffff;
-    font-weight: bold;
+    font-weight: 300;
     margin-top: 1rem;
+    font-size: .8rem;
 }
 
 .ccm-participantes {
@@ -50,6 +51,10 @@ body {
 
 .participante {
     max-height: 60px;
+}
+
+.ipart:hover {
+    transform: scale(1.2);
 }
 
 h1 {
@@ -109,11 +114,11 @@ h1 {
 }
 
 .purple {
-    color: #806DEC;
+    color: #806DEC!important;
 }
 
 .blue {
-    color: #4C82DA;
+    color: #4C82DA!important;
 }
 
 .blue-accent {
@@ -126,6 +131,17 @@ h1 {
 
 .dark-blue {
     color: #022550;
+}
+
+.gray {
+    color: #707070!important;
+}
+
+.snp-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3B66A5;
+
 }
 
 .convocatoria-card {
@@ -272,13 +288,13 @@ h1 {
 }
 
 .hero-nosotros {
-    background-image: url("../img/banner-posgrado-mobil.png");
-    height: 300px;
+    background-image: url(../img/banner-posgrado-mobil.png);
+    height: 180px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 #nosotros-info {
@@ -345,18 +361,27 @@ h1 {
 }
 
 .hero-maestria {
-    background-image: url("../img/maestria.png");
-    height: 350px;
+    background-image: url(../img/banner-maestria-mobil.png);
+    height: 250px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    padding-top: 48px;
+    padding-top: 30px;
 }
+
+.hero-text-2 {
+    color: #F9B82E;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+}
+
+
 
 .hero-doctorado {
     background-image: url("../img/hero-doctorado-mobile.png");
-    height: 350px;
+    height: 300px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -369,13 +394,13 @@ h1 {
 }
 
 .hero-admision {
-    background-image: url(../img/hero-admision-mobile.png);
-    height: 350px;
+    background-image: url(../img/banner-posgrado-mobil.png);
+    height: 180px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    padding-top: 64px;
+    padding-top: 50px;
 }
 
 #admission {
@@ -415,6 +440,16 @@ h1 {
     color: #ffffff;
     background-color: #4F84D7;
     border-color: #4F84D7;
+}
+
+.hero-tutores {
+    background-image: url(../img/banner-posgrado-mobil.png);
+    height: 180px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 50px;
 }
 
 @media (min-width: 576px) {
@@ -685,7 +720,7 @@ h1 {
         color: #FFC107;
     }
 
-    .hero-tutores {
+    .hero-admision {
         background-image: url("../img/BANNER_TUTORES.png");
         height: 300px;
         background-position: center;
@@ -695,7 +730,7 @@ h1 {
         padding-top: 100px;
     }
 
-    .hero-admision {
+    .hero-tutores {
         background-image: url("../img/BANNER_TUTORES.png");
         height: 300px;
         background-position: center;
@@ -785,16 +820,6 @@ li {
 }
 
 /* Tutores */
-
-.hero-tutores {
-    background-image: url("../img/BANNER_TUTORES.png");
-    height: 300px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    padding-top: 100px;
-}
 
 #objetivos {
     background-color: #ffffff;

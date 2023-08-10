@@ -16,7 +16,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-        <div class="brand-container d-flex align-itemx-center">
+        <div class="brand-container d-none d-sm-flex align-item-center">
             <div class="university-container">
                 <img src="img/escudo-unam.png" alt="escudo UNAM">
                 <div class="brand-university d-flex justify-content-center">UNAM</div>
@@ -27,9 +27,10 @@
             </div>
             <div class="university-container d-flex align-items-center">
                 <a class="navbar-brand" href="index.html">
-                    <div class="brand-text">
+                    <div class="brand-text ms-2">
                         Posgrado Conjunto en<br>Ciencias Matemáticas
                     </div>
+                    <!--                    <img src="img/brand-text.png" alt="Posgrado Conjunto Ciencias Matemáticas">-->
                 </a>
             </div>
         </div>
@@ -51,11 +52,16 @@
                 <li class="nav-item">
                     <a class="nav-link" href="admision.html">Admisión</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="alumnos.html">Alumnos</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuAlumnos" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Alumnos</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuAlumnos">
+                        <li><a class="dropdown-item" href="basicos.html">Cursos Básicos</a></li>
+                        <li><a class="dropdown-item" href="cursos.html">Cursos Semestre</a></li>
+                        <li><a class="dropdown-item" href="generales.html">Exámenes Generales</a></li>
+                    </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="tutores.html">Tutores</a>
+                    <a class="nav-link" href="tutores.html">Tutores</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contacto.html">Contacto</a>
@@ -67,7 +73,7 @@
 
 <div class="hero-tutores">
     <div class="container">
-        <div class="hero-text-2 dark-blue">Tutores</div>
+        <div class="hero-text-2 blue">Tutores</div>
     </div>
 </div>
 

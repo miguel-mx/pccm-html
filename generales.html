@@ -16,7 +16,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-        <div class="brand-container d-flex align-itemx-center">
+        <div class="brand-container d-none d-sm-flex align-item-center">
             <div class="university-container">
                 <img src="img/escudo-unam.png" alt="escudo UNAM">
                 <div class="brand-university d-flex justify-content-center">UNAM</div>
@@ -27,9 +27,10 @@
             </div>
             <div class="university-container d-flex align-items-center">
                 <a class="navbar-brand" href="index.html">
-                    <div class="brand-text">
+                    <div class="brand-text ms-2">
                         Posgrado Conjunto en<br>Ciencias Matemáticas
                     </div>
+                    <!--                    <img src="img/brand-text.png" alt="Posgrado Conjunto Ciencias Matemáticas">-->
                 </a>
             </div>
         </div>
@@ -49,10 +50,15 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Admisión</a>
+                    <a class="nav-link" href="admision.html">Admisión</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Estudiantes</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuAlumnos" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Alumnos</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuAlumnos">
+                        <li><a class="dropdown-item" href="basicos.html">Cursos Básicos</a></li>
+                        <li><a class="dropdown-item" href="cursos.html">Cursos Semestre</a></li>
+                        <li><a class="dropdown-item" href="generales.html">Exámenes Generales</a></li>
+                    </ul>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="tutores.html">Tutores</a>
@@ -67,7 +73,8 @@
 
 <div class="hero-tutores">
     <div class="container">
-        <div class="hero-text blue">Generales</div>
+        <div class="hero-text-2 blue d-sm-none">Exámenes</div>
+        <div class="hero-text-2 blue">Generales</div>
     </div>
 </div>
 
@@ -143,9 +150,17 @@
                     <div class="tab-pane fade content" id="nav-anteriores" role="tabpanel" aria-labelledby="nav-anteriores-tab">
                         <div class="admission-card h-100">
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item"><i class="bi bi-megaphone blue me-3"></i>Convocatoria de <strong>Reingreso Maestría</strong> 2024-1</li>
-                                <li class="list-group-item"><i class="bi bi-megaphone blue me-3"></i>Convocatoria de <strong>Reingreso Doctorado</strong> 2024-1</li>
-                                <li class="list-group-item"><i class="bi bi-calendar blue me-3"></i><strong>Calendario</strong> de Reingreso</li>
+                                <li class="list-group-item"><i class="bi bi-download blue me-3"></i><a href="files/generales/Algebra.zip">Álgebra</a></li>
+                                <li class="list-group-item"><i class="bi bi-download blue me-3"></i><a href="files/generales/AlgebraConmutativa.zip">Álgebra Conmutativa</a> </li>
+                                <li class="list-group-item"><i class="bi bi-download blue me-3"></i><a href="files/generales/AnalisisNumerico.zip">Análisis Numérico</a></li>
+                                <li class="list-group-item"><i class="bi bi-download blue me-3"></i><a href="files/generales/AnalisisRealyComplejo.zip">Análisis Real y Complejo</a></li>
+                                <li class="list-group-item"><i class="bi bi-download blue me-3"></i><a href="files/generales/EcuacionesDiferenciales.zip">Ecuaciones Diferenciales</a></li>
+                                <li class="list-group-item"><i class="bi bi-download blue me-3"></i><a href="files/generales/Probabilidad.zip">Probabilidad</a></li>
+                                <li class="list-group-item"><i class="bi bi-download blue me-3"></i><a href="files/generales/TeoriadeGraficas.zip">Teoría de Gráficas</a></li>
+                                <li class="list-group-item"><i class="bi bi-download blue me-3"></i><a href="files/generales/TeoriadeMatroides.zip">Teoría de Matroides</a></li>
+                                <li class="list-group-item"><i class="bi bi-download blue me-3"></i><a href="files/generales/TopologiaAlgebraica.zip">Topología Algebraica</a></li>
+                                <li class="list-group-item"><i class="bi bi-download blue me-3"></i><a href="files/generales/TopologiaDiferencial.zip">Topología Diferencial</a></li>
+                                <li class="list-group-item"><i class="bi bi-download blue me-3"></i><a href="files/generales/TopologiaGeneral.zip">Topología General</a></li>
                             </ul>
                         </div>
                     </div>
